@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "font1";
+    src: url(fonts/ITCAvantGardeStd-Bk.ttf);
+}
+body {
+    font-family: "font1";
+    font-size: 1em;
+    cursor: none;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    margin-top: 100px;
+    font-size: 10em;
+    text-align: right;
+    margin-top: -30%;
+    
+}
+
+.buttons-container h2 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    text-decoration: none;
+    width: 860px;
+    height: 260px;
+    margin: 24px 0;
+    font-size: 5em;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    color: #1c0000;
+    margin-top: 60px;
+    margin-left: 15%;
+
+}
+
+.btn.test-completed::after,
+.btn.test-completed::before {
+    content: "Hello, Myself Khushal";
+    position: absolute;
+    color: rgb(0, 0, 0);
+
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 90PX;
+    transition: all 400ms;
+    top: 0;
+}
+
+.btn.btn.test-completed:hover::after {
+    top: -566px;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn.test-completed::before {
+    content: "A UI UX Designer";
+    color: rgb(0, 0, 0);
+    top: 1396px;
+    width:800px;
+
+}
+
+.btn.btn.test-completed:hover::before {
+    top: 0;
+    color: rgb(4, 0, 0);
+}
+
+.earth {
+    z-index: -1;
+}
+
+span {
+    background-color: color-mix(in srgb, yellow 40%, purple percentage);
+}
+
+h2 {
+    margin: -0px;
+    font-weight: lighter;
+    color: gray;
+}
+.fora a {
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;  
+}
+.fora a::after,
+.fora a::before {
+    font-size: 2em;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+a:hover {
+    font-size: 3em;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+a:hover::after{
+    font-size: 3em;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+
+a:hover::before {
+    font-size: 3em;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+
+.fora a:hover ~ h1,
+fora.a:hover ~ h2 {
+  transform: scale(0.8);
+}
+/* Small dot style */
+
+/* Small dot style */
+.cursor-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #ff6347; /* Tomato color for a modern look */
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+    transition: transform 0.1s, background-color 0.3s;
+  }
+  
+  /* Large dot style */
+  .cursor-dot-large {
+    position: fixed;
+    width: 40px; /* Larger size for a more noticeable effect */
+    height: 40px;
+    background-color: rgba(255, 99, 71, 0.2); /* Light tomato color */
+    border: 2px solid #ff6347; /* Border for a modern touch */
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+    transition: transform 0.15s ease, width 0.15s ease, height 0.15s ease;
+  }
+* {
+    cursor: none;
+}
+header {
+    cursor: none;
+}
+
+.preloader {
+    height: 100vh;
+    width: 100vh;
+    position: fixed;
+    z-index: 100;
+    background: #000 url(loader.gif) no-repeat center center;
+    background-color: black;
+    background-size: 80%;
+}
+
+.WDO h1 {
+    font-size: 5em;
+    margin: 20px;
+    border-radius: 40px;
+    text-align: left;
+    margin-left: 40px;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+}
+
+.WDO h1:hover {
+    font-size: 3em;
+    transition-timing-function: ease-in-out 1s;
+    transition: ease-in-out 1s;
+    animation-duration: 5s;
+    animation-name: forh1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transition: all 5s;
+    animation-timeline: view();
+}
+
+.WDO h2 {
+    margin: 40px;
+    font-weight: lighter;
+    color: rgb(214, 214, 214);
+    animation-duration: 5s;
+    animation-name: forh1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transition: all 5s;
+    animation-timeline: view();
+}
+
+@keyframes forh1 {
+    from {
+        transform: translate(-10 -20);
+        opacity: 0.8;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.wrapperforthingsido h1 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 5em;
+}
+
+.wrapperforthingsido h1:hover {
+    color: rgb(255, 255, 255);
+    font-size: 8em;
+    transition: all 800ms;
+    background-color: rgb(0, 0, 0);
+    width: 100%px;
+    margin-left: -10px;
+    border-radius: 0;
+}
+
+.earthmodel {
+    width: 800px;
+    display: flex;
+    align-items:left;
+    align-self: left;
+}
+
+.iloveto {
+    display: flex;
+    align-items: right;
+    align-self: right;
+    margin-top: -100px;
+    text-align: right;
+}
+
+.iloveto h1:hover {
+    font-size: 6em;
+}
+
+.thingdonebyme1 h1 {
+    font-size: 4em;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 40px;
+}   
+
+.thingdonebyme1 h2 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 2em;
+    margin-left: 40px;
+    text-decoration: underline 1px solid gray;
+    margin-top: -40px;
+}
+
+.thingsdonebyme1 hr {
+    size: 80%;
+    width: 80%;
+}
+
+.model2 {
+    display: flex;
+    align-items: right;
+    align-self: right;
+    margin-left: 70%;
+    margin-top: -30%;
+}
+
+.thingsdonebyme2 h1 {
+    font-size: 4em;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 40px;
+
+}
+
+.thingsdonebyme2 h2 {
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 2em;
+    text-decoration: underline 1px solid gray;
+}
+
+.model3 {
+    display: flex;
+    align-items: right;
+    align-self: right;
+    margin-left: 60%;
+    margin-top: -20%;
+}
+
+@keyframes forapple {
+
+    from {
+        transform: translate(-50 -10);
+        transform: scaleY(-50%);
+        opacity: 0.4;
+        size: 0.8;
+    }
+
+    to {
+        size: 1;
+        opacity: 1;
+
+    }
+}
+
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+.video1 {
+    animation: forvideo;
+    animation-timeline:view();
+}
+
+@keyframes forvideo {
+    0% {
+        opacity: 1;
+        size: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+        size: 1;
+    }
+
+    100% {
+        opacity: 0.9;
+        size: 0.6;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow: hidden;
+        white-space: nowrap;
+        
+    }
+    
+}
+
+.MyEx {
+    margin-top: 500px;
+    text-align: left;
+
+}
